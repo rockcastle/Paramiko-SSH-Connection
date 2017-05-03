@@ -1,15 +1,32 @@
 # Paramiko-SSH-Connection
 Get some info from 3 different VMs using ssh connection with python 
 
+
 Pereparation:
+
+
 1- 3 different virtual boxes(A,B,C) on the same LAN
+
+
 2- Each VM has installed ssh-server, one VM has installed all required python packages
+
+
+
 3- Python Functions:
 
+
 3.1- Pinging:
+
+
 3.1.1- Program reads "ip" from config file to ping
+
+
 3.1.2- ping each host 64bytes, 128bytes sizes 10 times for each size
+
+
 3.1.3- calculate average time for pinging
+
+
 
 3.2- SSH Connection:
 3.2.1- SSH Connection from VM(A) to VM(B,C)
