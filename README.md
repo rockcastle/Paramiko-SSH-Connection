@@ -36,6 +36,9 @@ Pereparation:
 
 3.2.1.6- Report all these info in a pdf file.
 
+
 Requirements:
+
 paramiko (pip install paramiko)
+
 reportlab (pip install reportlab)
